@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D92A6A2191AB8500463363 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A692191AB8500463363 /* AppDelegate.m */; };
+		03D92A6D2191AB8500463363 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A6C2191AB8500463363 /* ViewController.m */; };
+		03D92A722191AB8900463363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D92A712191AB8900463363 /* Assets.xcassets */; };
+		03D92A782191AB8900463363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A772191AB8900463363 /* main.m */; };
+		03D92A802191AC9F00463363 /* ZPMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A7F2191AC9F00463363 /* ZPMAudioManager.m */; };
+		03D92A94219280AC00463363 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A86219280AC00463363 /* VoiceConverter.mm */; };
+		03D92A95219280AC00463363 /* VoiceRecorderBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A87219280AC00463363 /* VoiceRecorderBaseVC.m */; };
+		03D92A96219280AC00463363 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D92A89219280AC00463363 /* libopencore-amrwb.a */; };
+		03D92A97219280AC00463363 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D92A8A219280AC00463363 /* libopencore-amrnb.a */; };
+		03D92A98219280AC00463363 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A90219280AC00463363 /* wav.mm */; };
+		03D92A99219280AC00463363 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A91219280AC00463363 /* amrFileCodec.mm */; };
+		03D92A9C219288EC00463363 /* ZPMAudioBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92A9B219288EB00463363 /* ZPMAudioBackView.m */; };
+		03D92AA72192891F00463363 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92AA02192891F00463363 /* UIView+SDAutoLayout.m */; };
+		03D92AA82192891F00463363 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92AA32192891F00463363 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		03D92AA92192891F00463363 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 03D92AA52192891F00463363 /* LICENSE */; };
+		03D92AAA2192891F00463363 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03D92AA62192891F00463363 /* README.md */; };
+		03D92AAD21928B1400463363 /* ZPMAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D92AAB21928B1400463363 /* ZPMAudioViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D92A652191AB8500463363 /* ZPMAudioRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPMAudioRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D92A682191AB8500463363 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03D92A692191AB8500463363 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03D92A6B2191AB8500463363 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03D92A6C2191AB8500463363 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03D92A712191AB8900463363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D92A762191AB8900463363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D92A772191AB8900463363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03D92A7E2191AC9F00463363 /* ZPMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMAudioManager.h; sourceTree = "<group>"; };
+		03D92A7F2191AC9F00463363 /* ZPMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMAudioManager.m; sourceTree = "<group>"; };
+		03D92A82219280AC00463363 /* VoiceRecorderBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecorderBaseVC.h; sourceTree = "<group>"; };
+		03D92A84219280AC00463363 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		03D92A85219280AC00463363 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		03D92A86219280AC00463363 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		03D92A87219280AC00463363 /* VoiceRecorderBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecorderBaseVC.m; sourceTree = "<group>"; };
+		03D92A89219280AC00463363 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		03D92A8A219280AC00463363 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		03D92A8B219280AC00463363 /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		03D92A8D219280AC00463363 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		03D92A8E219280AC00463363 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		03D92A90219280AC00463363 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		03D92A91219280AC00463363 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		03D92A92219280AC00463363 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		03D92A93219280AC00463363 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		03D92A9A219288EB00463363 /* ZPMAudioBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMAudioBackView.h; sourceTree = "<group>"; };
+		03D92A9B219288EB00463363 /* ZPMAudioBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMAudioBackView.m; sourceTree = "<group>"; };
+		03D92AA02192891F00463363 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		03D92AA12192891F00463363 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		03D92AA22192891F00463363 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		03D92AA32192891F00463363 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		03D92AA42192891F00463363 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		03D92AA52192891F00463363 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		03D92AA62192891F00463363 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		03D92AAB21928B1400463363 /* ZPMAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPMAudioViewController.m; sourceTree = "<group>"; };
+		03D92AAC21928B1400463363 /* ZPMAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPMAudioViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D92A622191AB8500463363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D92A96219280AC00463363 /* libopencore-amrwb.a in Frameworks */,
+				03D92A97219280AC00463363 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039D1C292192BB1F0038A0DE /* audioRecord */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A7E2191AC9F00463363 /* ZPMAudioManager.h */,
+				03D92A7F2191AC9F00463363 /* ZPMAudioManager.m */,
+				03D92A9A219288EB00463363 /* ZPMAudioBackView.h */,
+				03D92A9B219288EB00463363 /* ZPMAudioBackView.m */,
+				03D92AAC21928B1400463363 /* ZPMAudioViewController.h */,
+				03D92AAB21928B1400463363 /* ZPMAudioViewController.m */,
+			);
+			name = audioRecord;
+			sourceTree = "<group>";
+		};
+		03D92A5C2191AB8500463363 = {
+			isa = PBXGroup;
+			children = (
+				03D92A672191AB8500463363 /* ZPMAudioRecording */,
+				03D92A662191AB8500463363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D92A662191AB8500463363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A652191AB8500463363 /* ZPMAudioRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D92A672191AB8500463363 /* ZPMAudioRecording */ = {
+			isa = PBXGroup;
+			children = (
+				039D1C292192BB1F0038A0DE /* audioRecord */,
+				03D92A682191AB8500463363 /* AppDelegate.h */,
+				03D92A692191AB8500463363 /* AppDelegate.m */,
+				03D92A6B2191AB8500463363 /* ViewController.h */,
+				03D92A6C2191AB8500463363 /* ViewController.m */,
+				03D92A9D2192891F00463363 /* SDAutoLayout */,
+				03D92A81219280AC00463363 /* VoiceConvert */,
+				03D92A712191AB8900463363 /* Assets.xcassets */,
+				03D92A762191AB8900463363 /* Info.plist */,
+				03D92A772191AB8900463363 /* main.m */,
+			);
+			path = ZPMAudioRecording;
+			sourceTree = "<group>";
+		};
+		03D92A81219280AC00463363 /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A82219280AC00463363 /* VoiceRecorderBaseVC.h */,
+				03D92A83219280AC00463363 /* opencore-amrwb */,
+				03D92A86219280AC00463363 /* VoiceConverter.mm */,
+				03D92A87219280AC00463363 /* VoiceRecorderBaseVC.m */,
+				03D92A88219280AC00463363 /* lib */,
+				03D92A8B219280AC00463363 /* VoiceConverter.h */,
+				03D92A8C219280AC00463363 /* opencore-amrnb */,
+				03D92A8F219280AC00463363 /* amrwapper */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		03D92A83219280AC00463363 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A84219280AC00463363 /* if_rom.h */,
+				03D92A85219280AC00463363 /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		03D92A88219280AC00463363 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A89219280AC00463363 /* libopencore-amrwb.a */,
+				03D92A8A219280AC00463363 /* libopencore-amrnb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		03D92A8C219280AC00463363 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A8D219280AC00463363 /* interf_dec.h */,
+				03D92A8E219280AC00463363 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		03D92A8F219280AC00463363 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A90219280AC00463363 /* wav.mm */,
+				03D92A91219280AC00463363 /* amrFileCodec.mm */,
+				03D92A92219280AC00463363 /* amrFileCodec.h */,
+				03D92A93219280AC00463363 /* wav.h */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		03D92A9D2192891F00463363 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A9E2192891F00463363 /* SDAutoLayoutDemo */,
+				03D92AA52192891F00463363 /* LICENSE */,
+				03D92AA62192891F00463363 /* README.md */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		03D92A9E2192891F00463363 /* SDAutoLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03D92A9F2192891F00463363 /* SDAutoLayout */,
+			);
+			path = SDAutoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		03D92A9F2192891F00463363 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				03D92AA02192891F00463363 /* UIView+SDAutoLayout.m */,
+				03D92AA12192891F00463363 /* UITableView+SDAutoTableViewCellHeight.h */,
+				03D92AA22192891F00463363 /* SDAutoLayout.h */,
+				03D92AA32192891F00463363 /* UITableView+SDAutoTableViewCellHeight.m */,
+				03D92AA42192891F00463363 /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D92A642191AB8500463363 /* ZPMAudioRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D92A7B2191AB8900463363 /* Build configuration list for PBXNativeTarget "ZPMAudioRecording" */;
+			buildPhases = (
+				03D92A612191AB8500463363 /* Sources */,
+				03D92A622191AB8500463363 /* Frameworks */,
+				03D92A632191AB8500463363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPMAudioRecording;
+			productName = ZPMAudioRecording;
+			productReference = 03D92A652191AB8500463363 /* ZPMAudioRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D92A5D2191AB8500463363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cowlevel;
+				TargetAttributes = {
+					03D92A642191AB8500463363 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 03D92A602191AB8500463363 /* Build configuration list for PBXProject "ZPMAudioRecording" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D92A5C2191AB8500463363;
+			productRefGroup = 03D92A662191AB8500463363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D92A642191AB8500463363 /* ZPMAudioRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D92A632191AB8500463363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D92A722191AB8900463363 /* Assets.xcassets in Resources */,
+				03D92AAA2192891F00463363 /* README.md in Resources */,
+				03D92AA92192891F00463363 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D92A612191AB8500463363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D92AA82192891F00463363 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				03D92A9C219288EC00463363 /* ZPMAudioBackView.m in Sources */,
+				03D92A94219280AC00463363 /* VoiceConverter.mm in Sources */,
+				03D92A802191AC9F00463363 /* ZPMAudioManager.m in Sources */,
+				03D92A95219280AC00463363 /* VoiceRecorderBaseVC.m in Sources */,
+				03D92AA72192891F00463363 /* UIView+SDAutoLayout.m in Sources */,
+				03D92A98219280AC00463363 /* wav.mm in Sources */,
+				03D92A6D2191AB8500463363 /* ViewController.m in Sources */,
+				03D92A99219280AC00463363 /* amrFileCodec.mm in Sources */,
+				03D92A782191AB8900463363 /* main.m in Sources */,
+				03D92A6A2191AB8500463363 /* AppDelegate.m in Sources */,
+				03D92AAD21928B1400463363 /* ZPMAudioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03D92A792191AB8900463363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03D92A7A2191AB8900463363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D92A7C2191AB8900463363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX5PC8BMTH;
+				INFOPLIST_FILE = ZPMAudioRecording/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZPMAudioRecording/VoiceConvert/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cowlevel.ZPMAudioRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03D92A7D2191AB8900463363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX5PC8BMTH;
+				INFOPLIST_FILE = ZPMAudioRecording/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZPMAudioRecording/VoiceConvert/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cowlevel.ZPMAudioRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D92A602191AB8500463363 /* Build configuration list for PBXProject "ZPMAudioRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D92A792191AB8900463363 /* Debug */,
+				03D92A7A2191AB8900463363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D92A7B2191AB8900463363 /* Build configuration list for PBXNativeTarget "ZPMAudioRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D92A7C2191AB8900463363 /* Debug */,
+				03D92A7D2191AB8900463363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D92A5D2191AB8500463363 /* Project object */;
+}
