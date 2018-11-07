@@ -1,0 +1,2 @@
+# audioRecord
+基于AVFoundation中的AVAudioSession，AVAudioRecorder，AVAudioPlayer实现音频录制
